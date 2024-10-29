@@ -1,0 +1,19 @@
+<h2>Tabela de Jogos da Seleção Brasileira Feminina de Vôlei</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Adversário</th>
+      <th>Local</th>
+      <th>Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let jogo of jogos">
+      <td>{{ jogo.data }}</td>
+      <td>{{ jogo.adversario }}</td>
+      <td>{{ jogo.local }}</td>
+      <td>{{ jogo.resultado }}</td>
+    </tr>
+  </tbody>
+</table>
